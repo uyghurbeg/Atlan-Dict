@@ -1,0 +1,1112 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044345DB1C302DF6008CACDA /* BGHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 044345DA1C302DF6008CACDA /* BGHome.m */; };
+		044345DE1C3031BA008CACDA /* BGHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044345DD1C3031BA008CACDA /* BGHomeCell.m */; };
+		044345E61C304B79008CACDA /* BGDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 044345E51C304B79008CACDA /* BGDetail.m */; };
+		045A7D001C30B7D300B961DF /* BGinfoMoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045A7CFF1C30B7D300B961DF /* BGinfoMoreController.m */; };
+		048E93CD1C58D6440032A713 /* myNotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 048E93CC1C58D6440032A713 /* myNotes.plist */; };
+		048E93D01C58DFD90032A713 /* BGSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E93CF1C58DFD90032A713 /* BGSave.m */; };
+		0499A41E1C307AF600BA2A2B /* rclick.png in Resources */ = {isa = PBXBuildFile; fileRef = 0499A41D1C307AF600BA2A2B /* rclick.png */; };
+		0499A4211C30800D00BA2A2B /* BGBiglistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499A4201C30800D00BA2A2B /* BGBiglistController.m */; };
+		0499A4241C3080CE00BA2A2B /* BGBiglistModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499A4231C3080CE00BA2A2B /* BGBiglistModal.m */; };
+		0499A4271C30818B00BA2A2B /* BGBookListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499A4261C30818B00BA2A2B /* BGBookListController.m */; };
+		049F3A721C2EB469004EA636 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F3A711C2EB469004EA636 /* main.m */; };
+		049F3A751C2EB469004EA636 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F3A741C2EB469004EA636 /* AppDelegate.m */; };
+		049F3A7B1C2EB469004EA636 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049F3A791C2EB469004EA636 /* Main.storyboard */; };
+		049F3A7E1C2EB469004EA636 /* FakeAtlan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 049F3A7C1C2EB469004EA636 /* FakeAtlan.xcdatamodeld */; };
+		049F3A801C2EB469004EA636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049F3A7F1C2EB469004EA636 /* Assets.xcassets */; };
+		049F3A831C2EB469004EA636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049F3A811C2EB469004EA636 /* LaunchScreen.storyboard */; };
+		049F3A8E1C2EB469004EA636 /* FakeAtlanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F3A8D1C2EB469004EA636 /* FakeAtlanTests.m */; };
+		049F3A991C2EB469004EA636 /* FakeAtlanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F3A981C2EB469004EA636 /* FakeAtlanUITests.m */; };
+		049F3AA81C2EB7FF004EA636 /* BGTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F3AA71C2EB7FF004EA636 /* BGTabbarController.m */; };
+		049F3AAE1C2EB8B6004EA636 /* BGSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F3AAD1C2EB8B6004EA636 /* BGSearchController.m */; };
+		049F3AB11C2EB8C2004EA636 /* BGInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F3AB01C2EB8C2004EA636 /* BGInfoController.m */; };
+		049F3AB41C2EB8D3004EA636 /* BGSavedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F3AB31C2EB8D3004EA636 /* BGSavedController.m */; };
+		049F3AB71C2EB8E4004EA636 /* BGHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F3AB61C2EB8E4004EA636 /* BGHomeController.m */; };
+		049F3BCD1C2EBA58004EA636 /* 1-1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B711C2EBA58004EA636 /* 1-1.plist */; };
+		049F3BCE1C2EBA58004EA636 /* 1-10.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B721C2EBA58004EA636 /* 1-10.plist */; };
+		049F3BCF1C2EBA58004EA636 /* 1-11.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B731C2EBA58004EA636 /* 1-11.plist */; };
+		049F3BD01C2EBA58004EA636 /* 1-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B741C2EBA58004EA636 /* 1-2.plist */; };
+		049F3BD11C2EBA58004EA636 /* 1-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B751C2EBA58004EA636 /* 1-3.plist */; };
+		049F3BD21C2EBA58004EA636 /* 1-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B761C2EBA58004EA636 /* 1-4.plist */; };
+		049F3BD31C2EBA58004EA636 /* 1-5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B771C2EBA58004EA636 /* 1-5.plist */; };
+		049F3BD41C2EBA58004EA636 /* 1-6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B781C2EBA58004EA636 /* 1-6.plist */; };
+		049F3BD51C2EBA58004EA636 /* 1-7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B791C2EBA58004EA636 /* 1-7.plist */; };
+		049F3BD61C2EBA58004EA636 /* 1-8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B7A1C2EBA58004EA636 /* 1-8.plist */; };
+		049F3BD71C2EBA58004EA636 /* 1-9.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B7B1C2EBA58004EA636 /* 1-9.plist */; };
+		049F3BD81C2EBA58004EA636 /* 1-menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B7C1C2EBA58004EA636 /* 1-menu.plist */; };
+		049F3BD91C2EBA58004EA636 /* 2-1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B7D1C2EBA58004EA636 /* 2-1.plist */; };
+		049F3BDA1C2EBA58004EA636 /* 2-10.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B7E1C2EBA58004EA636 /* 2-10.plist */; };
+		049F3BDB1C2EBA58004EA636 /* 2-11.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B7F1C2EBA58004EA636 /* 2-11.plist */; };
+		049F3BDC1C2EBA58004EA636 /* 2-12.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B801C2EBA58004EA636 /* 2-12.plist */; };
+		049F3BDD1C2EBA58004EA636 /* 2-13.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B811C2EBA58004EA636 /* 2-13.plist */; };
+		049F3BDE1C2EBA58004EA636 /* 2-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B821C2EBA58004EA636 /* 2-2.plist */; };
+		049F3BDF1C2EBA58004EA636 /* 2-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B831C2EBA58004EA636 /* 2-3.plist */; };
+		049F3BE01C2EBA58004EA636 /* 2-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B841C2EBA58004EA636 /* 2-4.plist */; };
+		049F3BE11C2EBA58004EA636 /* 2-5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B851C2EBA58004EA636 /* 2-5.plist */; };
+		049F3BE21C2EBA58004EA636 /* 2-6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B861C2EBA58004EA636 /* 2-6.plist */; };
+		049F3BE31C2EBA58004EA636 /* 2-7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B871C2EBA58004EA636 /* 2-7.plist */; };
+		049F3BE41C2EBA58004EA636 /* 2-8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B881C2EBA58004EA636 /* 2-8.plist */; };
+		049F3BE51C2EBA58004EA636 /* 2-9.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B891C2EBA58004EA636 /* 2-9.plist */; };
+		049F3BE61C2EBA58004EA636 /* 2-menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B8A1C2EBA58004EA636 /* 2-menu.plist */; };
+		049F3BE71C2EBA58004EA636 /* 3-1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B8B1C2EBA58004EA636 /* 3-1.plist */; };
+		049F3BE81C2EBA58004EA636 /* 3-10.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B8C1C2EBA58004EA636 /* 3-10.plist */; };
+		049F3BE91C2EBA58004EA636 /* 3-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B8D1C2EBA58004EA636 /* 3-2.plist */; };
+		049F3BEA1C2EBA58004EA636 /* 3-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B8E1C2EBA58004EA636 /* 3-3.plist */; };
+		049F3BEB1C2EBA58004EA636 /* 3-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B8F1C2EBA58004EA636 /* 3-4.plist */; };
+		049F3BEC1C2EBA58004EA636 /* 3-5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B901C2EBA58004EA636 /* 3-5.plist */; };
+		049F3BED1C2EBA58004EA636 /* 3-6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B911C2EBA58004EA636 /* 3-6.plist */; };
+		049F3BEE1C2EBA58004EA636 /* 3-7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B921C2EBA58004EA636 /* 3-7.plist */; };
+		049F3BEF1C2EBA58004EA636 /* 3-8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B931C2EBA58004EA636 /* 3-8.plist */; };
+		049F3BF01C2EBA58004EA636 /* 3-9.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B941C2EBA58004EA636 /* 3-9.plist */; };
+		049F3BF11C2EBA58004EA636 /* 3-menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B951C2EBA58004EA636 /* 3-menu.plist */; };
+		049F3BF21C2EBA58004EA636 /* 4-1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B961C2EBA58004EA636 /* 4-1.plist */; };
+		049F3BF31C2EBA58004EA636 /* 4-10.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B971C2EBA58004EA636 /* 4-10.plist */; };
+		049F3BF41C2EBA58004EA636 /* 4-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B981C2EBA58004EA636 /* 4-2.plist */; };
+		049F3BF51C2EBA58004EA636 /* 4-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B991C2EBA58004EA636 /* 4-3.plist */; };
+		049F3BF61C2EBA58004EA636 /* 4-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B9A1C2EBA58004EA636 /* 4-4.plist */; };
+		049F3BF71C2EBA58004EA636 /* 4-5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B9B1C2EBA58004EA636 /* 4-5.plist */; };
+		049F3BF81C2EBA58004EA636 /* 4-6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B9C1C2EBA58004EA636 /* 4-6.plist */; };
+		049F3BF91C2EBA58004EA636 /* 4-7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B9D1C2EBA58004EA636 /* 4-7.plist */; };
+		049F3BFA1C2EBA58004EA636 /* 4-8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B9E1C2EBA58004EA636 /* 4-8.plist */; };
+		049F3BFB1C2EBA58004EA636 /* 4-9.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3B9F1C2EBA58004EA636 /* 4-9.plist */; };
+		049F3BFC1C2EBA58004EA636 /* 4-menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BA01C2EBA58004EA636 /* 4-menu.plist */; };
+		049F3BFD1C2EBA58004EA636 /* 5-1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BA11C2EBA58004EA636 /* 5-1.plist */; };
+		049F3BFE1C2EBA58004EA636 /* 5-10.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BA21C2EBA58004EA636 /* 5-10.plist */; };
+		049F3BFF1C2EBA58004EA636 /* 5-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BA31C2EBA58004EA636 /* 5-2.plist */; };
+		049F3C001C2EBA58004EA636 /* 5-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BA41C2EBA58004EA636 /* 5-3.plist */; };
+		049F3C011C2EBA58004EA636 /* 5-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BA51C2EBA58004EA636 /* 5-4.plist */; };
+		049F3C021C2EBA58004EA636 /* 5-5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BA61C2EBA58004EA636 /* 5-5.plist */; };
+		049F3C031C2EBA58004EA636 /* 5-6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BA71C2EBA58004EA636 /* 5-6.plist */; };
+		049F3C041C2EBA58004EA636 /* 5-7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BA81C2EBA58004EA636 /* 5-7.plist */; };
+		049F3C051C2EBA58004EA636 /* 5-8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BA91C2EBA58004EA636 /* 5-8.plist */; };
+		049F3C061C2EBA58004EA636 /* 5-9.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BAA1C2EBA58004EA636 /* 5-9.plist */; };
+		049F3C071C2EBA58004EA636 /* 5-menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BAB1C2EBA58004EA636 /* 5-menu.plist */; };
+		049F3C081C2EBA58004EA636 /* 6-1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BAC1C2EBA58004EA636 /* 6-1.plist */; };
+		049F3C091C2EBA58004EA636 /* 6-10.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BAD1C2EBA58004EA636 /* 6-10.plist */; };
+		049F3C0A1C2EBA58004EA636 /* 6-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BAE1C2EBA58004EA636 /* 6-2.plist */; };
+		049F3C0B1C2EBA58004EA636 /* 6-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BAF1C2EBA58004EA636 /* 6-3.plist */; };
+		049F3C0C1C2EBA58004EA636 /* 6-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BB01C2EBA58004EA636 /* 6-4.plist */; };
+		049F3C0D1C2EBA58004EA636 /* 6-5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BB11C2EBA58004EA636 /* 6-5.plist */; };
+		049F3C0E1C2EBA58004EA636 /* 6-6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BB21C2EBA58004EA636 /* 6-6.plist */; };
+		049F3C0F1C2EBA58004EA636 /* 6-7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BB31C2EBA58004EA636 /* 6-7.plist */; };
+		049F3C101C2EBA58004EA636 /* 6-8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BB41C2EBA58004EA636 /* 6-8.plist */; };
+		049F3C111C2EBA58004EA636 /* 6-9.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BB51C2EBA58004EA636 /* 6-9.plist */; };
+		049F3C121C2EBA58004EA636 /* 6-menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BB61C2EBA58004EA636 /* 6-menu.plist */; };
+		049F3C131C2EBA58004EA636 /* 7-1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BB71C2EBA58004EA636 /* 7-1.plist */; };
+		049F3C141C2EBA58004EA636 /* 7-10.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BB81C2EBA58004EA636 /* 7-10.plist */; };
+		049F3C151C2EBA58004EA636 /* 7-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BB91C2EBA58004EA636 /* 7-2.plist */; };
+		049F3C161C2EBA58004EA636 /* 7-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BBA1C2EBA58004EA636 /* 7-3.plist */; };
+		049F3C171C2EBA58004EA636 /* 7-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BBB1C2EBA58004EA636 /* 7-4.plist */; };
+		049F3C181C2EBA58004EA636 /* 7-5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BBC1C2EBA58004EA636 /* 7-5.plist */; };
+		049F3C191C2EBA58004EA636 /* 7-6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BBD1C2EBA58004EA636 /* 7-6.plist */; };
+		049F3C1A1C2EBA58004EA636 /* 7-8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BBE1C2EBA58004EA636 /* 7-8.plist */; };
+		049F3C1B1C2EBA58004EA636 /* 7-9.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BBF1C2EBA58004EA636 /* 7-9.plist */; };
+		049F3C1C1C2EBA58004EA636 /* 7-menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BC01C2EBA58004EA636 /* 7-menu.plist */; };
+		049F3C1D1C2EBA58004EA636 /* 8-1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BC11C2EBA58004EA636 /* 8-1.plist */; };
+		049F3C1E1C2EBA58004EA636 /* 8-10.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BC21C2EBA58004EA636 /* 8-10.plist */; };
+		049F3C1F1C2EBA58004EA636 /* 8-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BC31C2EBA58004EA636 /* 8-2.plist */; };
+		049F3C201C2EBA58004EA636 /* 8-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BC41C2EBA58004EA636 /* 8-3.plist */; };
+		049F3C211C2EBA58004EA636 /* 8-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BC51C2EBA58004EA636 /* 8-4.plist */; };
+		049F3C221C2EBA58004EA636 /* 8-5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BC61C2EBA58004EA636 /* 8-5.plist */; };
+		049F3C231C2EBA58004EA636 /* 8-6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BC71C2EBA58004EA636 /* 8-6.plist */; };
+		049F3C241C2EBA58004EA636 /* 8-7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BC81C2EBA58004EA636 /* 8-7.plist */; };
+		049F3C251C2EBA58004EA636 /* 8-8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BC91C2EBA58004EA636 /* 8-8.plist */; };
+		049F3C261C2EBA58004EA636 /* 8-9.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BCA1C2EBA58004EA636 /* 8-9.plist */; };
+		049F3C271C2EBA58004EA636 /* 8-menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BCB1C2EBA58004EA636 /* 8-menu.plist */; };
+		049F3C281C2EBA58004EA636 /* about.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F3BCC1C2EBA58004EA636 /* about.plist */; };
+		049F3C301C2EBCF9004EA636 /* UKIJTzTr.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 049F3C2F1C2EBCF9004EA636 /* UKIJTzTr.ttf */; };
+		049F3C361C2EBFE2004EA636 /* BGTabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F3C351C2EBFE2004EA636 /* BGTabbarItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049F3A8A1C2EB469004EA636 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049F3A651C2EB468004EA636 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049F3A6C1C2EB469004EA636;
+			remoteInfo = FakeAtlan;
+		};
+		049F3A951C2EB469004EA636 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049F3A651C2EB468004EA636 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049F3A6C1C2EB469004EA636;
+			remoteInfo = FakeAtlan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044345D91C302DF6008CACDA /* BGHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGHome.h; sourceTree = "<group>"; };
+		044345DA1C302DF6008CACDA /* BGHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGHome.m; sourceTree = "<group>"; };
+		044345DC1C3031BA008CACDA /* BGHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGHomeCell.h; sourceTree = "<group>"; };
+		044345DD1C3031BA008CACDA /* BGHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGHomeCell.m; sourceTree = "<group>"; };
+		044345E41C304B79008CACDA /* BGDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGDetail.h; sourceTree = "<group>"; };
+		044345E51C304B79008CACDA /* BGDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGDetail.m; sourceTree = "<group>"; };
+		045A7CFE1C30B7D300B961DF /* BGinfoMoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGinfoMoreController.h; sourceTree = "<group>"; };
+		045A7CFF1C30B7D300B961DF /* BGinfoMoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGinfoMoreController.m; sourceTree = "<group>"; };
+		048E93CC1C58D6440032A713 /* myNotes.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = myNotes.plist; sourceTree = "<group>"; };
+		048E93CE1C58DFD90032A713 /* BGSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGSave.h; sourceTree = "<group>"; };
+		048E93CF1C58DFD90032A713 /* BGSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGSave.m; sourceTree = "<group>"; };
+		0499A41D1C307AF600BA2A2B /* rclick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rclick.png; path = Assets.xcassets/return_click.imageset/rclick.png; sourceTree = "<group>"; };
+		0499A41F1C30800D00BA2A2B /* BGBiglistController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGBiglistController.h; sourceTree = "<group>"; };
+		0499A4201C30800D00BA2A2B /* BGBiglistController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGBiglistController.m; sourceTree = "<group>"; };
+		0499A4221C3080CE00BA2A2B /* BGBiglistModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGBiglistModal.h; sourceTree = "<group>"; };
+		0499A4231C3080CE00BA2A2B /* BGBiglistModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGBiglistModal.m; sourceTree = "<group>"; };
+		0499A4251C30818B00BA2A2B /* BGBookListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGBookListController.h; sourceTree = "<group>"; };
+		0499A4261C30818B00BA2A2B /* BGBookListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGBookListController.m; sourceTree = "<group>"; };
+		049F3A6D1C2EB469004EA636 /* FakeAtlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeAtlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F3A711C2EB469004EA636 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		049F3A731C2EB469004EA636 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		049F3A741C2EB469004EA636 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		049F3A7A1C2EB469004EA636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049F3A7D1C2EB469004EA636 /* FakeAtlan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FakeAtlan.xcdatamodel; sourceTree = "<group>"; };
+		049F3A7F1C2EB469004EA636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049F3A821C2EB469004EA636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		049F3A841C2EB469004EA636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049F3A891C2EB469004EA636 /* FakeAtlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeAtlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F3A8D1C2EB469004EA636 /* FakeAtlanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FakeAtlanTests.m; sourceTree = "<group>"; };
+		049F3A8F1C2EB469004EA636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049F3A941C2EB469004EA636 /* FakeAtlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeAtlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F3A981C2EB469004EA636 /* FakeAtlanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FakeAtlanUITests.m; sourceTree = "<group>"; };
+		049F3A9A1C2EB469004EA636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049F3AA61C2EB7FF004EA636 /* BGTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGTabbarController.h; sourceTree = "<group>"; };
+		049F3AA71C2EB7FF004EA636 /* BGTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGTabbarController.m; sourceTree = "<group>"; };
+		049F3AAC1C2EB8B6004EA636 /* BGSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BGSearchController.h; path = ../BGSearchController.h; sourceTree = "<group>"; };
+		049F3AAD1C2EB8B6004EA636 /* BGSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BGSearchController.m; path = ../BGSearchController.m; sourceTree = "<group>"; };
+		049F3AAF1C2EB8C2004EA636 /* BGInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BGInfoController.h; path = ../BGInfoController.h; sourceTree = "<group>"; };
+		049F3AB01C2EB8C2004EA636 /* BGInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BGInfoController.m; path = ../BGInfoController.m; sourceTree = "<group>"; };
+		049F3AB21C2EB8D3004EA636 /* BGSavedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BGSavedController.h; path = ../BGSavedController.h; sourceTree = "<group>"; };
+		049F3AB31C2EB8D3004EA636 /* BGSavedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BGSavedController.m; path = ../BGSavedController.m; sourceTree = "<group>"; };
+		049F3AB51C2EB8E4004EA636 /* BGHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BGHomeController.h; path = ../BGHomeController.h; sourceTree = "<group>"; };
+		049F3AB61C2EB8E4004EA636 /* BGHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BGHomeController.m; path = ../BGHomeController.m; sourceTree = "<group>"; };
+		049F3B711C2EBA58004EA636 /* 1-1.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "1-1.plist"; sourceTree = "<group>"; };
+		049F3B721C2EBA58004EA636 /* 1-10.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "1-10.plist"; sourceTree = "<group>"; };
+		049F3B731C2EBA58004EA636 /* 1-11.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "1-11.plist"; sourceTree = "<group>"; };
+		049F3B741C2EBA58004EA636 /* 1-2.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "1-2.plist"; sourceTree = "<group>"; };
+		049F3B751C2EBA58004EA636 /* 1-3.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "1-3.plist"; sourceTree = "<group>"; };
+		049F3B761C2EBA58004EA636 /* 1-4.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "1-4.plist"; sourceTree = "<group>"; };
+		049F3B771C2EBA58004EA636 /* 1-5.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "1-5.plist"; sourceTree = "<group>"; };
+		049F3B781C2EBA58004EA636 /* 1-6.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "1-6.plist"; sourceTree = "<group>"; };
+		049F3B791C2EBA58004EA636 /* 1-7.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "1-7.plist"; sourceTree = "<group>"; };
+		049F3B7A1C2EBA58004EA636 /* 1-8.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "1-8.plist"; sourceTree = "<group>"; };
+		049F3B7B1C2EBA58004EA636 /* 1-9.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "1-9.plist"; sourceTree = "<group>"; };
+		049F3B7C1C2EBA58004EA636 /* 1-menu.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "1-menu.plist"; sourceTree = "<group>"; };
+		049F3B7D1C2EBA58004EA636 /* 2-1.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "2-1.plist"; sourceTree = "<group>"; };
+		049F3B7E1C2EBA58004EA636 /* 2-10.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "2-10.plist"; sourceTree = "<group>"; };
+		049F3B7F1C2EBA58004EA636 /* 2-11.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "2-11.plist"; sourceTree = "<group>"; };
+		049F3B801C2EBA58004EA636 /* 2-12.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "2-12.plist"; sourceTree = "<group>"; };
+		049F3B811C2EBA58004EA636 /* 2-13.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "2-13.plist"; sourceTree = "<group>"; };
+		049F3B821C2EBA58004EA636 /* 2-2.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "2-2.plist"; sourceTree = "<group>"; };
+		049F3B831C2EBA58004EA636 /* 2-3.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "2-3.plist"; sourceTree = "<group>"; };
+		049F3B841C2EBA58004EA636 /* 2-4.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "2-4.plist"; sourceTree = "<group>"; };
+		049F3B851C2EBA58004EA636 /* 2-5.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "2-5.plist"; sourceTree = "<group>"; };
+		049F3B861C2EBA58004EA636 /* 2-6.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "2-6.plist"; sourceTree = "<group>"; };
+		049F3B871C2EBA58004EA636 /* 2-7.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "2-7.plist"; sourceTree = "<group>"; };
+		049F3B881C2EBA58004EA636 /* 2-8.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "2-8.plist"; sourceTree = "<group>"; };
+		049F3B891C2EBA58004EA636 /* 2-9.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "2-9.plist"; sourceTree = "<group>"; };
+		049F3B8A1C2EBA58004EA636 /* 2-menu.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "2-menu.plist"; sourceTree = "<group>"; };
+		049F3B8B1C2EBA58004EA636 /* 3-1.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "3-1.plist"; sourceTree = "<group>"; };
+		049F3B8C1C2EBA58004EA636 /* 3-10.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "3-10.plist"; sourceTree = "<group>"; };
+		049F3B8D1C2EBA58004EA636 /* 3-2.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "3-2.plist"; sourceTree = "<group>"; };
+		049F3B8E1C2EBA58004EA636 /* 3-3.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "3-3.plist"; sourceTree = "<group>"; };
+		049F3B8F1C2EBA58004EA636 /* 3-4.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "3-4.plist"; sourceTree = "<group>"; };
+		049F3B901C2EBA58004EA636 /* 3-5.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "3-5.plist"; sourceTree = "<group>"; };
+		049F3B911C2EBA58004EA636 /* 3-6.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "3-6.plist"; sourceTree = "<group>"; };
+		049F3B921C2EBA58004EA636 /* 3-7.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "3-7.plist"; sourceTree = "<group>"; };
+		049F3B931C2EBA58004EA636 /* 3-8.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "3-8.plist"; sourceTree = "<group>"; };
+		049F3B941C2EBA58004EA636 /* 3-9.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "3-9.plist"; sourceTree = "<group>"; };
+		049F3B951C2EBA58004EA636 /* 3-menu.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "3-menu.plist"; sourceTree = "<group>"; };
+		049F3B961C2EBA58004EA636 /* 4-1.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "4-1.plist"; sourceTree = "<group>"; };
+		049F3B971C2EBA58004EA636 /* 4-10.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "4-10.plist"; sourceTree = "<group>"; };
+		049F3B981C2EBA58004EA636 /* 4-2.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "4-2.plist"; sourceTree = "<group>"; };
+		049F3B991C2EBA58004EA636 /* 4-3.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "4-3.plist"; sourceTree = "<group>"; };
+		049F3B9A1C2EBA58004EA636 /* 4-4.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "4-4.plist"; sourceTree = "<group>"; };
+		049F3B9B1C2EBA58004EA636 /* 4-5.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "4-5.plist"; sourceTree = "<group>"; };
+		049F3B9C1C2EBA58004EA636 /* 4-6.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "4-6.plist"; sourceTree = "<group>"; };
+		049F3B9D1C2EBA58004EA636 /* 4-7.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "4-7.plist"; sourceTree = "<group>"; };
+		049F3B9E1C2EBA58004EA636 /* 4-8.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "4-8.plist"; sourceTree = "<group>"; };
+		049F3B9F1C2EBA58004EA636 /* 4-9.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "4-9.plist"; sourceTree = "<group>"; };
+		049F3BA01C2EBA58004EA636 /* 4-menu.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "4-menu.plist"; sourceTree = "<group>"; };
+		049F3BA11C2EBA58004EA636 /* 5-1.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "5-1.plist"; sourceTree = "<group>"; };
+		049F3BA21C2EBA58004EA636 /* 5-10.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "5-10.plist"; sourceTree = "<group>"; };
+		049F3BA31C2EBA58004EA636 /* 5-2.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "5-2.plist"; sourceTree = "<group>"; };
+		049F3BA41C2EBA58004EA636 /* 5-3.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "5-3.plist"; sourceTree = "<group>"; };
+		049F3BA51C2EBA58004EA636 /* 5-4.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "5-4.plist"; sourceTree = "<group>"; };
+		049F3BA61C2EBA58004EA636 /* 5-5.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "5-5.plist"; sourceTree = "<group>"; };
+		049F3BA71C2EBA58004EA636 /* 5-6.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "5-6.plist"; sourceTree = "<group>"; };
+		049F3BA81C2EBA58004EA636 /* 5-7.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "5-7.plist"; sourceTree = "<group>"; };
+		049F3BA91C2EBA58004EA636 /* 5-8.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "5-8.plist"; sourceTree = "<group>"; };
+		049F3BAA1C2EBA58004EA636 /* 5-9.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "5-9.plist"; sourceTree = "<group>"; };
+		049F3BAB1C2EBA58004EA636 /* 5-menu.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "5-menu.plist"; sourceTree = "<group>"; };
+		049F3BAC1C2EBA58004EA636 /* 6-1.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "6-1.plist"; sourceTree = "<group>"; };
+		049F3BAD1C2EBA58004EA636 /* 6-10.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "6-10.plist"; sourceTree = "<group>"; };
+		049F3BAE1C2EBA58004EA636 /* 6-2.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "6-2.plist"; sourceTree = "<group>"; };
+		049F3BAF1C2EBA58004EA636 /* 6-3.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "6-3.plist"; sourceTree = "<group>"; };
+		049F3BB01C2EBA58004EA636 /* 6-4.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "6-4.plist"; sourceTree = "<group>"; };
+		049F3BB11C2EBA58004EA636 /* 6-5.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "6-5.plist"; sourceTree = "<group>"; };
+		049F3BB21C2EBA58004EA636 /* 6-6.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "6-6.plist"; sourceTree = "<group>"; };
+		049F3BB31C2EBA58004EA636 /* 6-7.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "6-7.plist"; sourceTree = "<group>"; };
+		049F3BB41C2EBA58004EA636 /* 6-8.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "6-8.plist"; sourceTree = "<group>"; };
+		049F3BB51C2EBA58004EA636 /* 6-9.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "6-9.plist"; sourceTree = "<group>"; };
+		049F3BB61C2EBA58004EA636 /* 6-menu.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "6-menu.plist"; sourceTree = "<group>"; };
+		049F3BB71C2EBA58004EA636 /* 7-1.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "7-1.plist"; sourceTree = "<group>"; };
+		049F3BB81C2EBA58004EA636 /* 7-10.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "7-10.plist"; sourceTree = "<group>"; };
+		049F3BB91C2EBA58004EA636 /* 7-2.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "7-2.plist"; sourceTree = "<group>"; };
+		049F3BBA1C2EBA58004EA636 /* 7-3.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "7-3.plist"; sourceTree = "<group>"; };
+		049F3BBB1C2EBA58004EA636 /* 7-4.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "7-4.plist"; sourceTree = "<group>"; };
+		049F3BBC1C2EBA58004EA636 /* 7-5.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "7-5.plist"; sourceTree = "<group>"; };
+		049F3BBD1C2EBA58004EA636 /* 7-6.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "7-6.plist"; sourceTree = "<group>"; };
+		049F3BBE1C2EBA58004EA636 /* 7-8.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "7-8.plist"; sourceTree = "<group>"; };
+		049F3BBF1C2EBA58004EA636 /* 7-9.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "7-9.plist"; sourceTree = "<group>"; };
+		049F3BC01C2EBA58004EA636 /* 7-menu.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "7-menu.plist"; sourceTree = "<group>"; };
+		049F3BC11C2EBA58004EA636 /* 8-1.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "8-1.plist"; sourceTree = "<group>"; };
+		049F3BC21C2EBA58004EA636 /* 8-10.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "8-10.plist"; sourceTree = "<group>"; };
+		049F3BC31C2EBA58004EA636 /* 8-2.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "8-2.plist"; sourceTree = "<group>"; };
+		049F3BC41C2EBA58004EA636 /* 8-3.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "8-3.plist"; sourceTree = "<group>"; };
+		049F3BC51C2EBA58004EA636 /* 8-4.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "8-4.plist"; sourceTree = "<group>"; };
+		049F3BC61C2EBA58004EA636 /* 8-5.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "8-5.plist"; sourceTree = "<group>"; };
+		049F3BC71C2EBA58004EA636 /* 8-6.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "8-6.plist"; sourceTree = "<group>"; };
+		049F3BC81C2EBA58004EA636 /* 8-7.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "8-7.plist"; sourceTree = "<group>"; };
+		049F3BC91C2EBA58004EA636 /* 8-8.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "8-8.plist"; sourceTree = "<group>"; };
+		049F3BCA1C2EBA58004EA636 /* 8-9.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "8-9.plist"; sourceTree = "<group>"; };
+		049F3BCB1C2EBA58004EA636 /* 8-menu.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "8-menu.plist"; sourceTree = "<group>"; };
+		049F3BCC1C2EBA58004EA636 /* about.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = about.plist; sourceTree = "<group>"; };
+		049F3C2F1C2EBCF9004EA636 /* UKIJTzTr.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = UKIJTzTr.ttf; sourceTree = "<group>"; };
+		049F3C341C2EBFE2004EA636 /* BGTabbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BGTabbarItem.h; path = ../BGTabbarItem.h; sourceTree = "<group>"; };
+		049F3C351C2EBFE2004EA636 /* BGTabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BGTabbarItem.m; path = ../BGTabbarItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049F3A6A1C2EB469004EA636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F3A861C2EB469004EA636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F3A911C2EB469004EA636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044345D41C302D2B008CACDA /* Classess */ = {
+			isa = PBXGroup;
+			children = (
+				049F3C291C2EBA66004EA636 /* Tabbar控制器 */,
+				049F3C2A1C2EBA77004EA636 /* 首页 */,
+				049F3C2D1C2EBA8C004EA636 /* 关于 */,
+				049F3C2C1C2EBA87004EA636 /* 收藏 */,
+				049F3C2B1C2EBA81004EA636 /* 搜索 */,
+				049F3C2E1C2EBA95004EA636 /* 其他 */,
+				049F3A701C2EB469004EA636 /* Supporting Files */,
+			);
+			name = Classess;
+			sourceTree = "<group>";
+		};
+		044345D51C302D36008CACDA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0499A41F1C30800D00BA2A2B /* BGBiglistController.h */,
+				0499A4201C30800D00BA2A2B /* BGBiglistController.m */,
+				0499A4251C30818B00BA2A2B /* BGBookListController.h */,
+				0499A4261C30818B00BA2A2B /* BGBookListController.m */,
+				049F3AB51C2EB8E4004EA636 /* BGHomeController.h */,
+				049F3AB61C2EB8E4004EA636 /* BGHomeController.m */,
+				044345E41C304B79008CACDA /* BGDetail.h */,
+				044345E51C304B79008CACDA /* BGDetail.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		044345D61C302D3C008CACDA /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				0499A4221C3080CE00BA2A2B /* BGBiglistModal.h */,
+				0499A4231C3080CE00BA2A2B /* BGBiglistModal.m */,
+				044345D91C302DF6008CACDA /* BGHome.h */,
+				044345DA1C302DF6008CACDA /* BGHome.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		044345D81C302D5B008CACDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				044345DC1C3031BA008CACDA /* BGHomeCell.h */,
+				044345DD1C3031BA008CACDA /* BGHomeCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0488D6201C315461002225E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				049F3AB21C2EB8D3004EA636 /* BGSavedController.h */,
+				049F3AB31C2EB8D3004EA636 /* BGSavedController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0488D6211C31546C002225E9 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				048E93CE1C58DFD90032A713 /* BGSave.h */,
+				048E93CF1C58DFD90032A713 /* BGSave.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		049F3A641C2EB468004EA636 = {
+			isa = PBXGroup;
+			children = (
+				049F3A6F1C2EB469004EA636 /* FakeAtlan */,
+				049F3A8C1C2EB469004EA636 /* FakeAtlanTests */,
+				049F3A971C2EB469004EA636 /* FakeAtlanUITests */,
+				049F3A6E1C2EB469004EA636 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049F3A6E1C2EB469004EA636 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049F3A6D1C2EB469004EA636 /* FakeAtlan.app */,
+				049F3A891C2EB469004EA636 /* FakeAtlanTests.xctest */,
+				049F3A941C2EB469004EA636 /* FakeAtlanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049F3A6F1C2EB469004EA636 /* FakeAtlan */ = {
+			isa = PBXGroup;
+			children = (
+				044345D41C302D2B008CACDA /* Classess */,
+			);
+			path = FakeAtlan;
+			sourceTree = "<group>";
+		};
+		049F3A701C2EB469004EA636 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				049F3C2F1C2EBCF9004EA636 /* UKIJTzTr.ttf */,
+				048E93CC1C58D6440032A713 /* myNotes.plist */,
+				049F3A711C2EB469004EA636 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		049F3A8C1C2EB469004EA636 /* FakeAtlanTests */ = {
+			isa = PBXGroup;
+			children = (
+				049F3A8D1C2EB469004EA636 /* FakeAtlanTests.m */,
+				049F3A8F1C2EB469004EA636 /* Info.plist */,
+			);
+			path = FakeAtlanTests;
+			sourceTree = "<group>";
+		};
+		049F3A971C2EB469004EA636 /* FakeAtlanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				049F3A981C2EB469004EA636 /* FakeAtlanUITests.m */,
+				049F3A9A1C2EB469004EA636 /* Info.plist */,
+			);
+			path = FakeAtlanUITests;
+			sourceTree = "<group>";
+		};
+		049F3B701C2EBA58004EA636 /* AtlanData */ = {
+			isa = PBXGroup;
+			children = (
+				049F3B711C2EBA58004EA636 /* 1-1.plist */,
+				049F3B721C2EBA58004EA636 /* 1-10.plist */,
+				049F3B731C2EBA58004EA636 /* 1-11.plist */,
+				049F3B741C2EBA58004EA636 /* 1-2.plist */,
+				049F3B751C2EBA58004EA636 /* 1-3.plist */,
+				049F3B761C2EBA58004EA636 /* 1-4.plist */,
+				049F3B771C2EBA58004EA636 /* 1-5.plist */,
+				049F3B781C2EBA58004EA636 /* 1-6.plist */,
+				049F3B791C2EBA58004EA636 /* 1-7.plist */,
+				049F3B7A1C2EBA58004EA636 /* 1-8.plist */,
+				049F3B7B1C2EBA58004EA636 /* 1-9.plist */,
+				049F3B7C1C2EBA58004EA636 /* 1-menu.plist */,
+				049F3B7D1C2EBA58004EA636 /* 2-1.plist */,
+				049F3B7E1C2EBA58004EA636 /* 2-10.plist */,
+				049F3B7F1C2EBA58004EA636 /* 2-11.plist */,
+				049F3B801C2EBA58004EA636 /* 2-12.plist */,
+				049F3B811C2EBA58004EA636 /* 2-13.plist */,
+				049F3B821C2EBA58004EA636 /* 2-2.plist */,
+				049F3B831C2EBA58004EA636 /* 2-3.plist */,
+				049F3B841C2EBA58004EA636 /* 2-4.plist */,
+				049F3B851C2EBA58004EA636 /* 2-5.plist */,
+				049F3B861C2EBA58004EA636 /* 2-6.plist */,
+				049F3B871C2EBA58004EA636 /* 2-7.plist */,
+				049F3B881C2EBA58004EA636 /* 2-8.plist */,
+				049F3B891C2EBA58004EA636 /* 2-9.plist */,
+				049F3B8A1C2EBA58004EA636 /* 2-menu.plist */,
+				049F3B8B1C2EBA58004EA636 /* 3-1.plist */,
+				049F3B8C1C2EBA58004EA636 /* 3-10.plist */,
+				049F3B8D1C2EBA58004EA636 /* 3-2.plist */,
+				049F3B8E1C2EBA58004EA636 /* 3-3.plist */,
+				049F3B8F1C2EBA58004EA636 /* 3-4.plist */,
+				049F3B901C2EBA58004EA636 /* 3-5.plist */,
+				049F3B911C2EBA58004EA636 /* 3-6.plist */,
+				049F3B921C2EBA58004EA636 /* 3-7.plist */,
+				049F3B931C2EBA58004EA636 /* 3-8.plist */,
+				049F3B941C2EBA58004EA636 /* 3-9.plist */,
+				049F3B951C2EBA58004EA636 /* 3-menu.plist */,
+				049F3B961C2EBA58004EA636 /* 4-1.plist */,
+				049F3B971C2EBA58004EA636 /* 4-10.plist */,
+				049F3B981C2EBA58004EA636 /* 4-2.plist */,
+				049F3B991C2EBA58004EA636 /* 4-3.plist */,
+				049F3B9A1C2EBA58004EA636 /* 4-4.plist */,
+				049F3B9B1C2EBA58004EA636 /* 4-5.plist */,
+				049F3B9C1C2EBA58004EA636 /* 4-6.plist */,
+				049F3B9D1C2EBA58004EA636 /* 4-7.plist */,
+				049F3B9E1C2EBA58004EA636 /* 4-8.plist */,
+				049F3B9F1C2EBA58004EA636 /* 4-9.plist */,
+				049F3BA01C2EBA58004EA636 /* 4-menu.plist */,
+				049F3BA11C2EBA58004EA636 /* 5-1.plist */,
+				049F3BA21C2EBA58004EA636 /* 5-10.plist */,
+				049F3BA31C2EBA58004EA636 /* 5-2.plist */,
+				049F3BA41C2EBA58004EA636 /* 5-3.plist */,
+				049F3BA51C2EBA58004EA636 /* 5-4.plist */,
+				049F3BA61C2EBA58004EA636 /* 5-5.plist */,
+				049F3BA71C2EBA58004EA636 /* 5-6.plist */,
+				049F3BA81C2EBA58004EA636 /* 5-7.plist */,
+				049F3BA91C2EBA58004EA636 /* 5-8.plist */,
+				049F3BAA1C2EBA58004EA636 /* 5-9.plist */,
+				049F3BAB1C2EBA58004EA636 /* 5-menu.plist */,
+				049F3BAC1C2EBA58004EA636 /* 6-1.plist */,
+				049F3BAD1C2EBA58004EA636 /* 6-10.plist */,
+				049F3BAE1C2EBA58004EA636 /* 6-2.plist */,
+				049F3BAF1C2EBA58004EA636 /* 6-3.plist */,
+				049F3BB01C2EBA58004EA636 /* 6-4.plist */,
+				049F3BB11C2EBA58004EA636 /* 6-5.plist */,
+				049F3BB21C2EBA58004EA636 /* 6-6.plist */,
+				049F3BB31C2EBA58004EA636 /* 6-7.plist */,
+				049F3BB41C2EBA58004EA636 /* 6-8.plist */,
+				049F3BB51C2EBA58004EA636 /* 6-9.plist */,
+				049F3BB61C2EBA58004EA636 /* 6-menu.plist */,
+				049F3BB71C2EBA58004EA636 /* 7-1.plist */,
+				049F3BB81C2EBA58004EA636 /* 7-10.plist */,
+				049F3BB91C2EBA58004EA636 /* 7-2.plist */,
+				049F3BBA1C2EBA58004EA636 /* 7-3.plist */,
+				049F3BBB1C2EBA58004EA636 /* 7-4.plist */,
+				049F3BBC1C2EBA58004EA636 /* 7-5.plist */,
+				049F3BBD1C2EBA58004EA636 /* 7-6.plist */,
+				049F3BBE1C2EBA58004EA636 /* 7-8.plist */,
+				049F3BBF1C2EBA58004EA636 /* 7-9.plist */,
+				049F3BC01C2EBA58004EA636 /* 7-menu.plist */,
+				049F3BC11C2EBA58004EA636 /* 8-1.plist */,
+				049F3BC21C2EBA58004EA636 /* 8-10.plist */,
+				049F3BC31C2EBA58004EA636 /* 8-2.plist */,
+				049F3BC41C2EBA58004EA636 /* 8-3.plist */,
+				049F3BC51C2EBA58004EA636 /* 8-4.plist */,
+				049F3BC61C2EBA58004EA636 /* 8-5.plist */,
+				049F3BC71C2EBA58004EA636 /* 8-6.plist */,
+				049F3BC81C2EBA58004EA636 /* 8-7.plist */,
+				049F3BC91C2EBA58004EA636 /* 8-8.plist */,
+				049F3BCA1C2EBA58004EA636 /* 8-9.plist */,
+				049F3BCB1C2EBA58004EA636 /* 8-menu.plist */,
+				049F3BCC1C2EBA58004EA636 /* about.plist */,
+			);
+			path = AtlanData;
+			sourceTree = "<group>";
+		};
+		049F3C291C2EBA66004EA636 /* Tabbar控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				049F3C341C2EBFE2004EA636 /* BGTabbarItem.h */,
+				049F3C351C2EBFE2004EA636 /* BGTabbarItem.m */,
+				049F3AA61C2EB7FF004EA636 /* BGTabbarController.h */,
+				049F3AA71C2EB7FF004EA636 /* BGTabbarController.m */,
+			);
+			name = "Tabbar控制器";
+			sourceTree = "<group>";
+		};
+		049F3C2A1C2EBA77004EA636 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				044345D81C302D5B008CACDA /* View */,
+				044345D61C302D3C008CACDA /* Modal */,
+				044345D51C302D36008CACDA /* Controllers */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		049F3C2B1C2EBA81004EA636 /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				049F3AAC1C2EB8B6004EA636 /* BGSearchController.h */,
+				049F3AAD1C2EB8B6004EA636 /* BGSearchController.m */,
+			);
+			name = "搜索";
+			sourceTree = "<group>";
+		};
+		049F3C2C1C2EBA87004EA636 /* 收藏 */ = {
+			isa = PBXGroup;
+			children = (
+				0488D6211C31546C002225E9 /* Modal */,
+				0488D6201C315461002225E9 /* Controller */,
+			);
+			name = "收藏";
+			sourceTree = "<group>";
+		};
+		049F3C2D1C2EBA8C004EA636 /* 关于 */ = {
+			isa = PBXGroup;
+			children = (
+				049F3AAF1C2EB8C2004EA636 /* BGInfoController.h */,
+				049F3AB01C2EB8C2004EA636 /* BGInfoController.m */,
+				045A7CFE1C30B7D300B961DF /* BGinfoMoreController.h */,
+				045A7CFF1C30B7D300B961DF /* BGinfoMoreController.m */,
+			);
+			name = "关于";
+			sourceTree = "<group>";
+		};
+		049F3C2E1C2EBA95004EA636 /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				049F3A731C2EB469004EA636 /* AppDelegate.h */,
+				049F3A741C2EB469004EA636 /* AppDelegate.m */,
+				049F3A791C2EB469004EA636 /* Main.storyboard */,
+				0499A41D1C307AF600BA2A2B /* rclick.png */,
+				049F3B701C2EBA58004EA636 /* AtlanData */,
+				049F3A7F1C2EB469004EA636 /* Assets.xcassets */,
+				049F3A811C2EB469004EA636 /* LaunchScreen.storyboard */,
+				049F3A841C2EB469004EA636 /* Info.plist */,
+				049F3A7C1C2EB469004EA636 /* FakeAtlan.xcdatamodeld */,
+			);
+			name = "其他";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049F3A6C1C2EB469004EA636 /* FakeAtlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F3A9D1C2EB469004EA636 /* Build configuration list for PBXNativeTarget "FakeAtlan" */;
+			buildPhases = (
+				049F3A691C2EB469004EA636 /* Sources */,
+				049F3A6A1C2EB469004EA636 /* Frameworks */,
+				049F3A6B1C2EB469004EA636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakeAtlan;
+			productName = FakeAtlan;
+			productReference = 049F3A6D1C2EB469004EA636 /* FakeAtlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		049F3A881C2EB469004EA636 /* FakeAtlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F3AA01C2EB469004EA636 /* Build configuration list for PBXNativeTarget "FakeAtlanTests" */;
+			buildPhases = (
+				049F3A851C2EB469004EA636 /* Sources */,
+				049F3A861C2EB469004EA636 /* Frameworks */,
+				049F3A871C2EB469004EA636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049F3A8B1C2EB469004EA636 /* PBXTargetDependency */,
+			);
+			name = FakeAtlanTests;
+			productName = FakeAtlanTests;
+			productReference = 049F3A891C2EB469004EA636 /* FakeAtlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		049F3A931C2EB469004EA636 /* FakeAtlanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F3AA31C2EB469004EA636 /* Build configuration list for PBXNativeTarget "FakeAtlanUITests" */;
+			buildPhases = (
+				049F3A901C2EB469004EA636 /* Sources */,
+				049F3A911C2EB469004EA636 /* Frameworks */,
+				049F3A921C2EB469004EA636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049F3A961C2EB469004EA636 /* PBXTargetDependency */,
+			);
+			name = FakeAtlanUITests;
+			productName = FakeAtlanUITests;
+			productReference = 049F3A941C2EB469004EA636 /* FakeAtlanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049F3A651C2EB468004EA636 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = BG;
+				TargetAttributes = {
+					049F3A6C1C2EB469004EA636 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					049F3A881C2EB469004EA636 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 049F3A6C1C2EB469004EA636;
+					};
+					049F3A931C2EB469004EA636 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 049F3A6C1C2EB469004EA636;
+					};
+				};
+			};
+			buildConfigurationList = 049F3A681C2EB469004EA636 /* Build configuration list for PBXProject "FakeAtlan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 049F3A641C2EB468004EA636;
+			productRefGroup = 049F3A6E1C2EB469004EA636 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049F3A6C1C2EB469004EA636 /* FakeAtlan */,
+				049F3A881C2EB469004EA636 /* FakeAtlanTests */,
+				049F3A931C2EB469004EA636 /* FakeAtlanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049F3A6B1C2EB469004EA636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F3BDC1C2EBA58004EA636 /* 2-12.plist in Resources */,
+				049F3A831C2EB469004EA636 /* LaunchScreen.storyboard in Resources */,
+				049F3C131C2EBA58004EA636 /* 7-1.plist in Resources */,
+				049F3C1A1C2EBA58004EA636 /* 7-8.plist in Resources */,
+				049F3C171C2EBA58004EA636 /* 7-4.plist in Resources */,
+				049F3A801C2EB469004EA636 /* Assets.xcassets in Resources */,
+				049F3BF51C2EBA58004EA636 /* 4-3.plist in Resources */,
+				049F3BF21C2EBA58004EA636 /* 4-1.plist in Resources */,
+				049F3BEE1C2EBA58004EA636 /* 3-7.plist in Resources */,
+				049F3C061C2EBA58004EA636 /* 5-9.plist in Resources */,
+				049F3BE31C2EBA58004EA636 /* 2-7.plist in Resources */,
+				049F3BE41C2EBA58004EA636 /* 2-8.plist in Resources */,
+				049F3C001C2EBA58004EA636 /* 5-3.plist in Resources */,
+				049F3BCF1C2EBA58004EA636 /* 1-11.plist in Resources */,
+				049F3C1F1C2EBA58004EA636 /* 8-2.plist in Resources */,
+				049F3C301C2EBCF9004EA636 /* UKIJTzTr.ttf in Resources */,
+				049F3BF71C2EBA58004EA636 /* 4-5.plist in Resources */,
+				049F3C121C2EBA58004EA636 /* 6-menu.plist in Resources */,
+				049F3BDA1C2EBA58004EA636 /* 2-10.plist in Resources */,
+				049F3C141C2EBA58004EA636 /* 7-10.plist in Resources */,
+				049F3BE81C2EBA58004EA636 /* 3-10.plist in Resources */,
+				049F3C051C2EBA58004EA636 /* 5-8.plist in Resources */,
+				049F3BF31C2EBA58004EA636 /* 4-10.plist in Resources */,
+				049F3BD91C2EBA58004EA636 /* 2-1.plist in Resources */,
+				049F3BFC1C2EBA58004EA636 /* 4-menu.plist in Resources */,
+				049F3BDB1C2EBA58004EA636 /* 2-11.plist in Resources */,
+				049F3BFA1C2EBA58004EA636 /* 4-8.plist in Resources */,
+				049F3BE11C2EBA58004EA636 /* 2-5.plist in Resources */,
+				049F3BD01C2EBA58004EA636 /* 1-2.plist in Resources */,
+				049F3C151C2EBA58004EA636 /* 7-2.plist in Resources */,
+				049F3BD51C2EBA58004EA636 /* 1-7.plist in Resources */,
+				049F3C221C2EBA58004EA636 /* 8-5.plist in Resources */,
+				049F3C111C2EBA58004EA636 /* 6-9.plist in Resources */,
+				049F3C081C2EBA58004EA636 /* 6-1.plist in Resources */,
+				049F3BEB1C2EBA58004EA636 /* 3-4.plist in Resources */,
+				049F3C0F1C2EBA58004EA636 /* 6-7.plist in Resources */,
+				049F3BD21C2EBA58004EA636 /* 1-4.plist in Resources */,
+				049F3BFB1C2EBA58004EA636 /* 4-9.plist in Resources */,
+				049F3C1E1C2EBA58004EA636 /* 8-10.plist in Resources */,
+				049F3BD11C2EBA58004EA636 /* 1-3.plist in Resources */,
+				049F3BE71C2EBA58004EA636 /* 3-1.plist in Resources */,
+				049F3BFF1C2EBA58004EA636 /* 5-2.plist in Resources */,
+				049F3BE61C2EBA58004EA636 /* 2-menu.plist in Resources */,
+				049F3BF11C2EBA58004EA636 /* 3-menu.plist in Resources */,
+				049F3BDD1C2EBA58004EA636 /* 2-13.plist in Resources */,
+				049F3BD31C2EBA58004EA636 /* 1-5.plist in Resources */,
+				049F3C021C2EBA58004EA636 /* 5-5.plist in Resources */,
+				049F3C201C2EBA58004EA636 /* 8-3.plist in Resources */,
+				049F3C0B1C2EBA58004EA636 /* 6-3.plist in Resources */,
+				049F3C231C2EBA58004EA636 /* 8-6.plist in Resources */,
+				049F3BCE1C2EBA58004EA636 /* 1-10.plist in Resources */,
+				049F3BFD1C2EBA58004EA636 /* 5-1.plist in Resources */,
+				049F3C181C2EBA58004EA636 /* 7-5.plist in Resources */,
+				049F3BF91C2EBA58004EA636 /* 4-7.plist in Resources */,
+				049F3BEA1C2EBA58004EA636 /* 3-3.plist in Resources */,
+				049F3C101C2EBA58004EA636 /* 6-8.plist in Resources */,
+				049F3BF41C2EBA58004EA636 /* 4-2.plist in Resources */,
+				049F3C251C2EBA58004EA636 /* 8-8.plist in Resources */,
+				049F3C091C2EBA58004EA636 /* 6-10.plist in Resources */,
+				049F3BFE1C2EBA58004EA636 /* 5-10.plist in Resources */,
+				049F3BD61C2EBA58004EA636 /* 1-8.plist in Resources */,
+				049F3C1B1C2EBA58004EA636 /* 7-9.plist in Resources */,
+				049F3C161C2EBA58004EA636 /* 7-3.plist in Resources */,
+				049F3BE91C2EBA58004EA636 /* 3-2.plist in Resources */,
+				049F3C211C2EBA58004EA636 /* 8-4.plist in Resources */,
+				049F3C1D1C2EBA58004EA636 /* 8-1.plist in Resources */,
+				049F3BEC1C2EBA58004EA636 /* 3-5.plist in Resources */,
+				049F3BDF1C2EBA58004EA636 /* 2-3.plist in Resources */,
+				049F3C241C2EBA58004EA636 /* 8-7.plist in Resources */,
+				049F3C011C2EBA58004EA636 /* 5-4.plist in Resources */,
+				049F3C0C1C2EBA58004EA636 /* 6-4.plist in Resources */,
+				049F3C281C2EBA58004EA636 /* about.plist in Resources */,
+				049F3C071C2EBA58004EA636 /* 5-menu.plist in Resources */,
+				049F3BE51C2EBA58004EA636 /* 2-9.plist in Resources */,
+				049F3C0D1C2EBA58004EA636 /* 6-5.plist in Resources */,
+				049F3BE21C2EBA58004EA636 /* 2-6.plist in Resources */,
+				0499A41E1C307AF600BA2A2B /* rclick.png in Resources */,
+				049F3BF01C2EBA58004EA636 /* 3-9.plist in Resources */,
+				049F3C261C2EBA58004EA636 /* 8-9.plist in Resources */,
+				049F3BD71C2EBA58004EA636 /* 1-9.plist in Resources */,
+				049F3BF61C2EBA58004EA636 /* 4-4.plist in Resources */,
+				049F3BED1C2EBA58004EA636 /* 3-6.plist in Resources */,
+				049F3BCD1C2EBA58004EA636 /* 1-1.plist in Resources */,
+				049F3C0A1C2EBA58004EA636 /* 6-2.plist in Resources */,
+				048E93CD1C58D6440032A713 /* myNotes.plist in Resources */,
+				049F3BF81C2EBA58004EA636 /* 4-6.plist in Resources */,
+				049F3BD81C2EBA58004EA636 /* 1-menu.plist in Resources */,
+				049F3BE01C2EBA58004EA636 /* 2-4.plist in Resources */,
+				049F3C031C2EBA58004EA636 /* 5-6.plist in Resources */,
+				049F3C041C2EBA58004EA636 /* 5-7.plist in Resources */,
+				049F3C1C1C2EBA58004EA636 /* 7-menu.plist in Resources */,
+				049F3BD41C2EBA58004EA636 /* 1-6.plist in Resources */,
+				049F3BDE1C2EBA58004EA636 /* 2-2.plist in Resources */,
+				049F3A7B1C2EB469004EA636 /* Main.storyboard in Resources */,
+				049F3C271C2EBA58004EA636 /* 8-menu.plist in Resources */,
+				049F3C191C2EBA58004EA636 /* 7-6.plist in Resources */,
+				049F3BEF1C2EBA58004EA636 /* 3-8.plist in Resources */,
+				049F3C0E1C2EBA58004EA636 /* 6-6.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F3A871C2EB469004EA636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F3A921C2EB469004EA636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049F3A691C2EB469004EA636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048E93D01C58DFD90032A713 /* BGSave.m in Sources */,
+				049F3A7E1C2EB469004EA636 /* FakeAtlan.xcdatamodeld in Sources */,
+				0499A4241C3080CE00BA2A2B /* BGBiglistModal.m in Sources */,
+				049F3AAE1C2EB8B6004EA636 /* BGSearchController.m in Sources */,
+				044345DB1C302DF6008CACDA /* BGHome.m in Sources */,
+				049F3AB11C2EB8C2004EA636 /* BGInfoController.m in Sources */,
+				0499A4271C30818B00BA2A2B /* BGBookListController.m in Sources */,
+				049F3AB71C2EB8E4004EA636 /* BGHomeController.m in Sources */,
+				044345DE1C3031BA008CACDA /* BGHomeCell.m in Sources */,
+				0499A4211C30800D00BA2A2B /* BGBiglistController.m in Sources */,
+				049F3A751C2EB469004EA636 /* AppDelegate.m in Sources */,
+				049F3AA81C2EB7FF004EA636 /* BGTabbarController.m in Sources */,
+				044345E61C304B79008CACDA /* BGDetail.m in Sources */,
+				049F3AB41C2EB8D3004EA636 /* BGSavedController.m in Sources */,
+				045A7D001C30B7D300B961DF /* BGinfoMoreController.m in Sources */,
+				049F3C361C2EBFE2004EA636 /* BGTabbarItem.m in Sources */,
+				049F3A721C2EB469004EA636 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F3A851C2EB469004EA636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F3A8E1C2EB469004EA636 /* FakeAtlanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F3A901C2EB469004EA636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F3A991C2EB469004EA636 /* FakeAtlanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049F3A8B1C2EB469004EA636 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049F3A6C1C2EB469004EA636 /* FakeAtlan */;
+			targetProxy = 049F3A8A1C2EB469004EA636 /* PBXContainerItemProxy */;
+		};
+		049F3A961C2EB469004EA636 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049F3A6C1C2EB469004EA636 /* FakeAtlan */;
+			targetProxy = 049F3A951C2EB469004EA636 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		049F3A791C2EB469004EA636 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049F3A7A1C2EB469004EA636 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		049F3A811C2EB469004EA636 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049F3A821C2EB469004EA636 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049F3A9B1C2EB469004EA636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		049F3A9C1C2EB469004EA636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049F3A9E1C2EB469004EA636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FakeAtlan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.1",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uyghurbeg.FakeAtlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		049F3A9F1C2EB469004EA636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FakeAtlan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.1",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uyghurbeg.FakeAtlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		049F3AA11C2EB469004EA636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FakeAtlanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uyghurbeg.FakeAtlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FakeAtlan.app/FakeAtlan";
+			};
+			name = Debug;
+		};
+		049F3AA21C2EB469004EA636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FakeAtlanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uyghurbeg.FakeAtlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FakeAtlan.app/FakeAtlan";
+			};
+			name = Release;
+		};
+		049F3AA41C2EB469004EA636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FakeAtlanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uyghurbeg.FakeAtlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FakeAtlan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		049F3AA51C2EB469004EA636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FakeAtlanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uyghurbeg.FakeAtlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FakeAtlan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049F3A681C2EB469004EA636 /* Build configuration list for PBXProject "FakeAtlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F3A9B1C2EB469004EA636 /* Debug */,
+				049F3A9C1C2EB469004EA636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049F3A9D1C2EB469004EA636 /* Build configuration list for PBXNativeTarget "FakeAtlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F3A9E1C2EB469004EA636 /* Debug */,
+				049F3A9F1C2EB469004EA636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049F3AA01C2EB469004EA636 /* Build configuration list for PBXNativeTarget "FakeAtlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F3AA11C2EB469004EA636 /* Debug */,
+				049F3AA21C2EB469004EA636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049F3AA31C2EB469004EA636 /* Build configuration list for PBXNativeTarget "FakeAtlanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F3AA41C2EB469004EA636 /* Debug */,
+				049F3AA51C2EB469004EA636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		049F3A7C1C2EB469004EA636 /* FakeAtlan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				049F3A7D1C2EB469004EA636 /* FakeAtlan.xcdatamodel */,
+			);
+			currentVersion = 049F3A7D1C2EB469004EA636 /* FakeAtlan.xcdatamodel */;
+			path = FakeAtlan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 049F3A651C2EB468004EA636 /* Project object */;
+}
